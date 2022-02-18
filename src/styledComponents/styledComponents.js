@@ -19,3 +19,6 @@ export const MainButton = styled(Button)(({ theme }) => ({
         background: 'black'
     }
 }))
+export const SectionHeader = styled(Typography)(({theme})=>({
+    fontWeight: '600'
+}))
